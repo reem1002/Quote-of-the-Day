@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <link rel="stylesheet" href="qoute.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="quote-box">
+            <h1>Quote of the Day</h1>
+            <p id="quote"><img src="./imgs/mark.png " class="icon1">In complete darkness we are all the same, it is only
+                our knowledge
+                and wisdom that separates
+                us, don't let your eyes deceive you. <img src="./imgs/mark.png " class="icon2"></p>
+            <p id="author">- Janet Jackson</p>
+            <div class="footer">
+                <div class="buttons">
+                    <button id="listen-btn" onclick="listenQuote()"><img class="icon" title="Listen"
+                            src="./imgs/volume_up_24dp_064E9A_FILL0_wght400_GRAD0_opsz24 (1).png"></button>
+                    <button id="copy-btn" onclick="copyQuote()"><img class="icon" title="Copy"
+                            src="./imgs/content_copy_24dp_064E9A_FILL0_wght400_GRAD0_opsz24.png"></button>
+                    <button id="tweet-btn" onclick="tweetQuote()"><img class="icon" title="Copy"
+                            src="./imgs/image.png"></button>
+                </div>
+                <button id="new-quote-btn" onclick="newQuote()">New Quote</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
